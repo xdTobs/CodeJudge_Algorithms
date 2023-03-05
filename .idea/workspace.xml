@@ -4,8 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68fb2dec-aed8-4b74-88f1-d95eeee3a5a5" name="Changes" comment="week1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/week2/Stones.java" afterDir="false" />
+    <list default="true" id="68fb2dec-aed8-4b74-88f1-d95eeee3a5a5" name="Changes" comment="week2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/week2/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week2/Discount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week2/InsertSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week2/KthLargestNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week2/MaxSubarray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week2/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week2/NearestPair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week2/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week2/QueueHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week2/StackHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week2/ThreeSumNCubed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week2/ThreeSumNSquared.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week2/ThreeSumNSquaredLogN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week2/TwoSumNSquared.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week2/TwoSumNlogN.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,16 +52,25 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Documents/Shared Documents/02326 Algorithms/CodeJudge Algorithms&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Algorithm_2D_v4">
-    <configuration name="Algorithm_2D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week1.Algorithm_2D" />
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="week2" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.QueueHandler">
+    <configuration name="KthLargestNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week2.KthLargestNumber" />
       <module name="CodeJudge Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week1.*" />
+          <option name="PATTERN" value="week2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -54,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Algorithm_2D_v2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week1.Algorithm_2D_v2" />
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week2.MergeSort" />
       <module name="CodeJudge Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week1.*" />
+          <option name="PATTERN" value="week2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Algorithm_2D_v3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week1.Algorithm_2D_v3" />
+    <configuration name="QueueHandler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week2.QueueHandler" />
       <module name="CodeJudge Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week1.*" />
+          <option name="PATTERN" value="week2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +104,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Algorithm_2D_v4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week1.Algorithm_2D_v4" />
+    <configuration name="ThreeSumNSquared" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week2.ThreeSumNSquared" />
       <module name="CodeJudge Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week1.*" />
+          <option name="PATTERN" value="week2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreeSumNSquaredLogN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week2.ThreeSumNSquaredLogN" />
+      <module name="CodeJudge Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,10 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Algorithm_2D_v4" />
-        <item itemvalue="Application.Algorithm_2D_v3" />
-        <item itemvalue="Application.Algorithm_2D_v2" />
-        <item itemvalue="Application.Algorithm_2D" />
+        <item itemvalue="Application.QueueHandler" />
+        <item itemvalue="Application.KthLargestNumber" />
+        <item itemvalue="Application.ThreeSumNSquared" />
+        <item itemvalue="Application.ThreeSumNSquaredLogN" />
+        <item itemvalue="Application.MergeSort" />
       </list>
     </recent_temporary>
   </component>
@@ -111,7 +149,12 @@
       <option name="presentableId" value="Default" />
       <updated>1675321834318</updated>
       <workItem from="1675321836880" duration="21162000" />
-      <workItem from="1675927459241" duration="493000" />
+      <workItem from="1675927459241" duration="15913000" />
+      <workItem from="1677502578404" duration="9158000" />
+      <workItem from="1677674406617" duration="962000" />
+      <workItem from="1677675481227" duration="94000" />
+      <workItem from="1677681893927" duration="1060000" />
+      <workItem from="1678027224547" duration="138000" />
     </task>
     <task id="LOCAL-00001" summary="week1">
       <created>1675854229825</created>
@@ -120,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675854229826</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="week2">
+      <created>1675928037517</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675928037517</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,7 +189,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="week1" />
-    <option name="LAST_COMMIT_MESSAGE" value="week1" />
+    <MESSAGE value="week2" />
+    <option name="LAST_COMMIT_MESSAGE" value="week2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -148,6 +199,46 @@
           <url>file://$PROJECT_DIR$/src/main/java/week1/Algorithm_2D.java</url>
           <line>19</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/week2/InsertSort.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/week2/InsertSort.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/week2/KthLargestNumber.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/week2/KthLargestNumber.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/week2/KthLargestNumber.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/week2/BinarySearch.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/week2/QueueHandler.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/week2/QueueHandler.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
