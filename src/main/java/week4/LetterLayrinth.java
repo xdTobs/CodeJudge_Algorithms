@@ -16,29 +16,50 @@ public class LetterLayrinth {
             map[i] = row;
         }
 
-        Deque<int[]> queue = new ArrayDeque<>();
+        Queue<Point> queue = new ArrayDeque<>();
         boolean[][] visited = new boolean[length][length];
 
-        queue.addFirst(new int[]{0,0,1});
+        queue.add(new Point(0,0,map[0][0],1));
 
         while(!queue.isEmpty()){
-            int[] coords = queue.pollLast();
-            visited[coords[0]][coords[1]]=true;
-            if(coords[0]==length-1&&coords[1]==length-1){
-                System.out.println(coords[2]);
+            Point p = queue.remove();
+            visited[p.x][p.y]=true;
+            if(p.x==length-1&&p.y==length-1){
+                System.out.println(p.step);
                 break;
             }
 
 
-            if(coords[0]+1!=length&&map[coords[0]+1][coords[1]]!=map[coords[0]][coords[1]]&&!visited[coords[0]+1][coords[1]])
-                queue.addFirst(new int[]{coords[0]+1,coords[1],coords[2]+1});
-            if(coords[0]-1!=-1&&map[coords[0]-1][coords[1]]!=map[coords[0]][coords[1]]&&!visited[coords[0]-1][coords[1]])
-                queue.addFirst(new int[]{coords[0]-1,coords[1],coords[2]+1});
-            if(coords[1]+1!=length&&map[coords[0]][coords[1]+1]!=map[coords[0]][coords[1]]&&!visited[coords[0]][coords[1]+1])
-                queue.addFirst(new int[]{coords[0],coords[1]+1,coords[2]+1});
-            if(coords[1]-1!=-1&&map[coords[0]][coords[1]-1]!=map[coords[0]][coords[1]]&&!visited[coords[0]][coords[1]-1])
-                queue.addFirst(new int[]{coords[0],coords[1]-1,coords[2]+1});
+            if (p.x + 1 != length && map[p.x + 1][p.y] != map[p.x][p.y] && !visited[p.x + 1][p.y]) {
+                queue.add(new Point(p.x + 1, p.y, map[p.x + 1][p.y], p.step + 1));
+                visited[p.x + 1][p.y] = true;
+            }
+            if (p.x - 1 != -1 && map[p.x - 1][p.y] != map[p.x][p.y] && !visited[p.x - 1][p.y]) {
+                queue.add(new Point(p.x - 1, p.y, map[p.x - 1][p.y], p.step + 1));
+                visited[p.x - 1][p.y] = true;
+            }
+            if (p.y + 1 != length && map[p.x][p.y + 1] != map[p.x][p.y] && !visited[p.x][p.y + 1]) {
+                queue.add(new Point(p.x, p.y + 1, map[p.x][p.y + 1], p.step + 1));
+                visited[p.x][p.y + 1] = true;
+            }
+            if (p.y - 1 != -1 && map[p.x][p.y - 1] != map[p.x][p.y] && !visited[p.x][p.y - 1]) {
+                queue.add(new Point(p.x, p.y - 1, map[p.x][p.y - 1], p.step + 1));
+                visited[p.x][p.y - 1] = true;
+            }
         }
 
+    }
+    static class Point{
+        int x;
+        int y;
+        char c;
+        int step;
+
+        public Point(int x, int y, char c, int step) {
+            this.x = x;
+            this.y = y;
+            this.c = c;
+            this.step = step;
+        }
     }
 }
