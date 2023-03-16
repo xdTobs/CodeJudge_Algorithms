@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68fb2dec-aed8-4b74-88f1-d95eeee3a5a5" name="Changes" comment="week2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/week6/TopologicalSort.java" afterDir="false" />
+    <list default="true" id="68fb2dec-aed8-4b74-88f1-d95eeee3a5a5" name="Changes" comment="close but neither method works">
+      <change afterPath="$PROJECT_DIR$/src/main/java/week7/BuildingPaths.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week7/week7questions.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week4/LetterLayrinth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week4/LetterLayrinth.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,29 +28,32 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2LAlYyxgSAw17WkmDi3tX83tpuA" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/tobia/IdeaProjects/CodeJudge_Algorithms&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/tobia/IdeaProjects",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="week2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.KthLargestNumber">
+  <component name="RunManager">
     <configuration name="KthLargestNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="week2.KthLargestNumber" />
       <module name="CodeJudge Algorithms" />
@@ -142,7 +145,8 @@
       <workItem from="1677681893927" duration="1060000" />
       <workItem from="1678027224547" duration="138000" />
       <workItem from="1678176809502" duration="957000" />
-      <workItem from="1678357927023" duration="1607000" />
+      <workItem from="1678357927023" duration="5271000" />
+      <workItem from="1678961834306" duration="4919000" />
     </task>
     <task id="LOCAL-00001" summary="week1">
       <created>1675854229825</created>
@@ -158,7 +162,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675928037517</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="not working solution of TopologicalSort.java">
+      <created>1678359568415</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678359568415</updated>
+    </task>
+    <task id="LOCAL-00004" summary="close but neither method works">
+      <created>1678369608830</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678369608830</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,9 +194,12 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="week1" />
     <MESSAGE value="week2" />
-    <option name="LAST_COMMIT_MESSAGE" value="week2" />
+    <MESSAGE value="not working solution of TopologicalSort.java" />
+    <MESSAGE value="close but neither method works" />
+    <option name="LAST_COMMIT_MESSAGE" value="close but neither method works" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -227,6 +248,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/week2/QueueHandler.java</url>
           <line>15</line>
           <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/week6/TopologicalSort.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/week6/TopologicalSort.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="42" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
