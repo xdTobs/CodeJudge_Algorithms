@@ -25,13 +25,21 @@ public class BuildingPaths {
         System.out.println(output);
     }
 
-    public boolean dfs(List<List<Integer>> adjList, HashSet<Integer> visited, int curr, int goal) {
-        if(visited.contains(curr))
-            return false;
-        visited.add(curr);
-        if (curr == goal) return true;
-        for (Integer i : adjList.get(curr)) {
-                if (!visited.contains(i)&&dfs(adjList, visited, i, goal)) return true;
+    public boolean dfs(List<List<Integer>> adjList, HashSet<Integer> visited, int start, int goal) {
+        Stack<Integer> stack = new Stack<>();
+        stack.push(start);
+        while(!stack.isEmpty()){
+            int curr = stack.pop();
+            if(visited.contains(curr)) {
+                continue;
+            }
+            visited.add(curr);
+            if (curr == goal) return true;
+            for (Integer i : adjList.get(curr)) {
+                if (!visited.contains(i)){
+                    stack.push(i);
+                }
+            }
         }
         return false;
     }
