@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68fb2dec-aed8-4b74-88f1-d95eeee3a5a5" name="Changes" comment="non working assignment 2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/week9/FiberOpticCables.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week10/Dijkstra.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +51,7 @@
       <recent name="week2" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.KthLargestNumber">
     <configuration name="KthLargestNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="week2.KthLargestNumber" />
       <module name="CodeJudge Algorithms" />
@@ -149,6 +148,7 @@
       <workItem from="1678977906717" duration="10000" />
       <workItem from="1679674850390" duration="2073000" />
       <workItem from="1680167829344" duration="2028000" />
+      <workItem from="1681377059487" duration="471000" />
     </task>
     <task id="LOCAL-00001" summary="week1">
       <created>1675854229825</created>
