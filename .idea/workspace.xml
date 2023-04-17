@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68fb2dec-aed8-4b74-88f1-d95eeee3a5a5" name="Changes" comment="close but neither method works">
-      <change afterPath="$PROJECT_DIR$/src/main/java/week7/DTUWayFinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week7/DTUWayFinderTwo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week7/BuildingPaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week7/BuildingPaths.java" afterDir="false" />
+    <list default="true" id="68fb2dec-aed8-4b74-88f1-d95eeee3a5a5" name="Changes" comment=",">
+      <change afterPath="$PROJECT_DIR$/src/main/java/week7/BP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week7/main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678369608830</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary=",">
+      <created>1681753145887</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1681753145887</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,7 +218,8 @@
     <MESSAGE value="week2" />
     <MESSAGE value="not working solution of TopologicalSort.java" />
     <MESSAGE value="close but neither method works" />
-    <option name="LAST_COMMIT_MESSAGE" value="close but neither method works" />
+    <MESSAGE value="," />
+    <option name="LAST_COMMIT_MESSAGE" value="," />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
