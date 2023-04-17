@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68fb2dec-aed8-4b74-88f1-d95eeee3a5a5" name="Changes" comment="non working assignment 2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/week10/Dijkstra.java" afterDir="false" />
+    <list default="true" id="68fb2dec-aed8-4b74-88f1-d95eeee3a5a5" name="Changes" comment="close but neither method works">
+      <change afterPath="$PROJECT_DIR$/src/main/java/week7/DTUWayFinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week7/DTUWayFinderTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week7/BuildingPaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week7/BuildingPaths.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,6 +120,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.QueueHandler" />
@@ -144,11 +158,9 @@
       <workItem from="1678027224547" duration="138000" />
       <workItem from="1678176809502" duration="957000" />
       <workItem from="1678357927023" duration="5271000" />
-      <workItem from="1678961834306" duration="6190000" />
-      <workItem from="1678977906717" duration="10000" />
-      <workItem from="1679674850390" duration="2073000" />
-      <workItem from="1680167829344" duration="2028000" />
-      <workItem from="1681377059487" duration="471000" />
+      <workItem from="1678961834306" duration="4919000" />
+      <workItem from="1679175555020" duration="1193000" />
+      <workItem from="1679180606600" duration="2036000" />
     </task>
     <task id="LOCAL-00001" summary="week1">
       <created>1675854229825</created>
@@ -178,14 +190,7 @@
       <option name="project" value="LOCAL" />
       <updated>1678369608830</updated>
     </task>
-    <task id="LOCAL-00005" summary="non working assignment 2">
-      <created>1678974401707</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1678974401707</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,8 +213,7 @@
     <MESSAGE value="week2" />
     <MESSAGE value="not working solution of TopologicalSort.java" />
     <MESSAGE value="close but neither method works" />
-    <MESSAGE value="non working assignment 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="non working assignment 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="close but neither method works" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -268,6 +272,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/week6/TopologicalSort.java</url>
           <line>38</line>
           <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/week7/BuildingPaths.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/week7/DTUWayFinder.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="45" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
